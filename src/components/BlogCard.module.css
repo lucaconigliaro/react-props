@@ -1,12 +1,7 @@
 .card {
     background-color: white;
     border-radius: .5rem;
-
-}
-
-.card img {
-    border-radius: .5rem .5rem 0 0;
-    height: auto;
+    overflow: hidden;
 }
 
 .content {
@@ -17,4 +12,17 @@
     font-size: .8rem;
     margin: .5rem auto;
     font-weight: lighter;
+}
+
+.tags {
+    display: flex;
+    gap: 8px; /* Spazio tra i tag */
+}
+
+.tag {
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #333;
 }

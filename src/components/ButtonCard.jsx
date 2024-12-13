@@ -6,7 +6,7 @@ function ButtonCard() {
         <button className={style.button}>
             LEGGI DI PIU
         </button>
-    )
+    );
 }
 
 export default ButtonCard
