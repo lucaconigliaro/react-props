@@ -3,15 +3,16 @@ import posts from "../components/data/posts"
 
 function AppMain() {
     const printPost = () => {
-        return posts.map((curPost, index) => (
+        return posts.map((curPost) => (
+            curPost.published && 
             <BlogCard
-                key={index}
+                key={curPost.id}
                 image={curPost.image}
                 title={curPost.title}
                 content={curPost.content}
                 tags={curPost.tags}
             />
-        ));
+        )); 
     };
 
     return (
