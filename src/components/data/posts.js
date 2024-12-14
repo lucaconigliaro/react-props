@@ -2,7 +2,7 @@ const posts = [
     {
       id: 1,
       title: "Titolo del Post",
-      image: 'image1.jpg',
+      image: 'https://fastly.picsum.photos/id/384/200/200.jpg?hmac=TAsUnIQnfLj13hjjp8604_rXNHrqCGlB2K8UQoWt1aM',
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
       tags: ["html", "css"],
@@ -11,7 +11,7 @@ const posts = [
     {
       id: 2,
       title: "Titolo del Post",
-      image: '',
+      image: 'https://placehold.co/450x290',
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
       tags: ["js", "css"],
@@ -20,16 +20,16 @@ const posts = [
     {
       id: 3,
       title: "Titolo del Post",
-      image: '',
+      image: 'https://placehold.co/450x290',
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
+        "Lorem ipsum dolor sit amet consecttur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
       tags: ["js", "php"],
       published: true,
     },
     {
       id: 4,
       title: "Titolo del Post",
-      image: 'image3.jpg',
+      image: 'https://fastly.picsum.photos/id/260/200/200.jpg?hmac=Nu9V4Ixqq3HiFhfkcsL5mNRZAZyEHG2jotmiiMRdxGA',
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
       tags: ["html"],
