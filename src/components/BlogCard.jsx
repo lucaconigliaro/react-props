@@ -1,7 +1,10 @@
 import style from "./BlogCard.module.css"
 import ButtonCard from "./ButtonCard"
 
-function BlogCard({ title, content, image, tags }) {
+function BlogCard({post}) {
+
+    const { id, title, content, image, tags } = post
+    
     return (
         <div className={style.card}>
             <div className="card-image">
@@ -11,9 +14,9 @@ function BlogCard({ title, content, image, tags }) {
                 <div className={style.header}>
                     <h4>{title}</h4>
                     <div className={style.tags}>
-                        {tags.map((tag, index) => (
-                            <span key={index} className={`tag ${style[tag]}`}>
-                                {tag}
+                        {tags.map((curTag, index) => (
+                            <span key={index} className={`curTag ${style[curTag]}`}>
+                                {curTag}
                             </span>
                         ))}
                     </div>
